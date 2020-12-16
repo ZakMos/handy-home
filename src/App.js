@@ -1,16 +1,20 @@
-import './App.css';
+import './styles/App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './views/Main';
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <h1>Handy Home</h1>
-        <h2>Marburg</h2>
-        <p>Am Grün 32,</p>
-        <p>35037 Marburg</p>
-        <p> Deutschland</p>
-      </header>
+      <div className="App-header">
+        < Header />
+      </div>
+        < Main />
     </div>
+  < Footer />
+</>
   );
 }
 
