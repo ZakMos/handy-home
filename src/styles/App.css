@@ -1,0 +1,38 @@
+@import './media.css';
+@import './footer.css';
+
+:root {
+  --background-color: #282c34;
+  --color: #fff;
+}
+
+.App {
+  text-align: center;
+  min-height: calc(100vh - 70px);
+}
+
+.App-header {
+  background-color: var(--background-color);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--color);
+}
+
+.mainAddress, .under-construction {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.under-construction {
+  background-color: yellow;
+  border: 2px dashed var(--background-color);
+  margin: 10% 25%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  
+}
