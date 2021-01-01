@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 540px) {
+    .mainAddress, .under-construction {
+      font-size: 1rem;
+      font-weight: 0;
+    }
+    .under-construction {
+      margin: 15% 15%;
+    }
+  }
+  
+@media only screen and (max-width: 365px) {
+    .footer-text {
+      font-size: 1rem;
+    }
+  }
+  
