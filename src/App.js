@@ -1,8 +1,10 @@
-import './styles/App.css';
-
-import Footer from './components/Footer';
+import './scss/App.scss';
 import Header from './components/Header';
 import Main from './views/Main';
+// import Contact from './views/Contact';
+import Footer from './components/Footer';
+import { Products } from './views/Products';
+
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
         < Header />
       </div>
         < Main />
+        < Products />
+        {/* < Contact /> */}
     </div>
   < Footer />
 </>
