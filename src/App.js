@@ -1,9 +1,10 @@
 import './scss/App.scss';
 import Header from './components/Header';
-import Main from './views/Main';
+// import Main from './views/Main';
 // import Contact from './views/Contact';
 import Footer from './components/Footer';
-import { Products } from './views/Products';
+// import { Products } from './views/Products';
+import UnderConstruction from './views/UnderConstruction'
 
 
 
@@ -14,8 +15,9 @@ function App() {
       <div className="App-header">
         < Header />
       </div>
-        < Main />
-        < Products />
+      < UnderConstruction />
+        {/* < Main /> */}
+        {/* < Products /> */}
         {/* < Contact /> */}
     </div>
   < Footer />
